@@ -56,11 +56,11 @@ Since currently there is a few research paper about distributed framework for FL
 
 - [GAIA: A System for Interactive Analysis on Distributed Graphs Using a High-Level Language](https://www.usenix.org/system/files/nsdi21-qian.pdf). 2021. NSDI: A memory management system for interactive graph computation. Chineses blog: [Survey of Distributed Framework in Federated Learning](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
 
-<h4 id="2.3">Communication efficiency</h3>
+<h4 id="2.3">2.3 Communication efficiency</h3>
 
 ---
 
-<h2 id="3">Opensource Projects</h2>
+<h2 id="3">3 Opensource Projects</h2>
 
 - [FATE](https://github.com/search?q=federated+learning): Industrial framework for FL. From WeBank. Chinese blog: [Architecture of FATE](https://neth-lab.netlify.app/publication/21-3-12-architecture-of-fate/)
 - [PySyft](https://github.com/OpenMined/PySyft)

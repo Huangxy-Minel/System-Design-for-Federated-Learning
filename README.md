@@ -62,6 +62,9 @@ This section will collect paper from both **Distributed framework for other comp
 
 Since currently there is a few research paper about distributed framework for FL, here we provide related work focus on Machine Learning Framework for reference.
 
+-[Scaling Large Production Clusters with Partitioned Synchronization](https://www.usenix.org/conference/atc21/presentation/feng-yihui). 2021. ATC
+- [Shard Manager: A Generic Shard Management Framework for Geo-distributed Applications](https://dl.acm.org/doi/10.1145/3477132.3483546). 2021. SOSP
+- [Rabia: Simplifying State-Machine Replication Through Randomization](https://dl.acm.org/doi/10.1145/3477132.3483582)
 - [GAIA: A System for Interactive Analysis on Distributed Graphs Using a High-Level Language](https://www.usenix.org/system/files/nsdi21-qian.pdf). 2021. NSDI: A memory management system for interactive graph computation. Chineses blog: [Survey of Distributed Framework in Federated Learning](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
 - [Ownership: A Distributed Futures System for Fine-Grained Tasks](https://www.usenix.org/system/files/nsdi21-wang.pdf). 2021. NSDI
 - [Hoplite: efficient and fault-tolerant collective communication for task-based distributed systems](https://dl.acm.org/doi/abs/10.1145/3452296.3472897). 2021. SIGCOMM
@@ -82,19 +85,22 @@ This section includes key paper in distributed framework for machine learning.
 
 ---
 
-<h4 id="2.3">2.3 Communication Efficiency</h4>
+<h4 id="2.3">2.3 Computation & Communication Efficiency</h4>
 
-<h4 id="2.2.1">2.3.1 Communication Eficiency for FL</h4>
+<h4 id="2.2.1">2.3.1 Eficiency for FL</h4>
 
 - [Oort: Efficient Federated Learning via Guided Participant Selection](https://www.usenix.org/conference/osdi21/presentation/lai). 2021. OSDI
 - [Communication-Efficient Federated Learning with Adaptive Parameter Freezing](https://ieeexplore.ieee.org/abstract/document/9546506/). 2021. ICDCS
 - [BatchCrypt: Efficient Homomorphic Encryption for Cross-Silo Federated Learning](https://www.usenix.org/conference/atc20/presentation/zhang-chengliang). 2020. ATC
 - [CMFL: Mitigating Communication Overhead for Federated Learning](https://ieeexplore.ieee.org/abstract/document/8885054). 2019. ICDCS
 
-<h4 id="2.3.2">2.3.2 Communication Efficiency for Machine Learning</h4>
+<h4 id="2.3.2">2.3.2 Efficiency for Machine Learning</h4>
 
 This section will introduce some researches focus on tradition Machine Learning, which is related to Federated Learning.
 
+- [Octo: INT8 Training with Loss-aware Compensation and Backward Quantization for Tiny On-device Learning](https://www.usenix.org/conference/atc21/presentation/zhou-qihua). 2021. ATC
+- [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://dl.acm.org/doi/10.1145/3477132.3483553). 2021. SOSP
+- [A generic communication scheduler for distributed DNN training acceleration](https://dl.acm.org/doi/10.1145/3341301.3359642). 2019. SOSP. Chinese blog: [Summary of A generic communication scheduler for distributed DNN training acceleration](https://neth-lab.netlify.app/publication/20-12-21-a-generic-communication-scheduler-for-distributed-dnn-training-acceleration/)
 - [Gaia: Geo-distributed machine learning approaching lan speeds](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/hsieh). 2017. NSDI
 
 ---

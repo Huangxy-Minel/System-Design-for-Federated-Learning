@@ -3,7 +3,7 @@ A paper list of federated learning - About system design. Currently, it mainly f
 
 Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/project/) with a more detailed classification.
 
-**Last update: December, 9th, 2021.**
+**Last update: December, 10th, 2021.**
 
 ---
 
@@ -62,12 +62,18 @@ This section will collect paper from both **Distributed framework for other comp
 
 Since currently there is a few research paper about distributed framework for FL, here we provide related work focus on Machine Learning Framework for reference.
 
--[Scaling Large Production Clusters with Partitioned Synchronization](https://www.usenix.org/conference/atc21/presentation/feng-yihui). 2021. ATC
+- [Scaling Large Production Clusters with Partitioned Synchronization](https://www.usenix.org/conference/atc21/presentation/feng-yihui). 2021. ATC
 - [Shard Manager: A Generic Shard Management Framework for Geo-distributed Applications](https://dl.acm.org/doi/10.1145/3477132.3483546). 2021. SOSP
-- [Rabia: Simplifying State-Machine Replication Through Randomization](https://dl.acm.org/doi/10.1145/3477132.3483582)
+- [Rabia: Simplifying State-Machine Replication Through Randomization](https://dl.acm.org/doi/10.1145/3477132.3483582). 2021. SOSP
+- [Zico: Efficient GPU Memory Sharing for Concurrent DNN Training](https://www.usenix.org/conference/atc21/presentation/lim). 2021. ATC
+- [Advanced synchronization techniques for task-based runtime systems](https://dl.acm.org/doi/10.1145/3437801.3441601). 2021. PPoPP
+- [Are dynamic memory managers on GPUs slow?: a survey and benchmarks](https://dl.acm.org/doi/10.1145/3437801.3441612). 2021. PPoPP
+- [DAPPLE: a pipelined data parallel approach for training large models](https://dl.acm.org/doi/10.1145/3437801.3441593). 2021. PPoPP
+- [Sentinel: Efficient Tensor Migration and Allocation on Heterogeneous Memory Systems for Deep Learning](https://ieeexplore.ieee.org/abstract/document/9407112). 2021. HPCA
 - [GAIA: A System for Interactive Analysis on Distributed Graphs Using a High-Level Language](https://www.usenix.org/system/files/nsdi21-qian.pdf). 2021. NSDI: A memory management system for interactive graph computation. Chineses blog: [Survey of Distributed Framework in Federated Learning](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
 - [Ownership: A Distributed Futures System for Fine-Grained Tasks](https://www.usenix.org/system/files/nsdi21-wang.pdf). 2021. NSDI
 - [Hoplite: efficient and fault-tolerant collective communication for task-based distributed systems](https://dl.acm.org/doi/abs/10.1145/3452296.3472897). 2021. SIGCOMM
+- [HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism](https://www.usenix.org/conference/atc20/presentation/park). 2020. ATC
 
 <h4 id="2.2.3">2.2.3 Key Papers</h4>
 
@@ -87,9 +93,10 @@ This section includes key paper in distributed framework for machine learning.
 
 <h4 id="2.3">2.3 Computation & Communication Efficiency</h4>
 
-<h4 id="2.2.1">2.3.1 Eficiency for FL</h4>
+<h4 id="2.3.1">2.3.1 Eficiency for FL</h4>
 
 - [Oort: Efficient Federated Learning via Guided Participant Selection](https://www.usenix.org/conference/osdi21/presentation/lai). 2021. OSDI
+- [Cheetah: Optimizing and Accelerating Homomorphic Encryption for Private Inference](https://ieeexplore.ieee.org/abstract/document/9407118). 2021. HPCA
 - [Communication-Efficient Federated Learning with Adaptive Parameter Freezing](https://ieeexplore.ieee.org/abstract/document/9546506/). 2021. ICDCS
 - [BatchCrypt: Efficient Homomorphic Encryption for Cross-Silo Federated Learning](https://www.usenix.org/conference/atc20/presentation/zhang-chengliang). 2020. ATC
 - [CMFL: Mitigating Communication Overhead for Federated Learning](https://ieeexplore.ieee.org/abstract/document/8885054). 2019. ICDCS
@@ -100,6 +107,8 @@ This section will introduce some researches focus on tradition Machine Learning,
 
 - [Octo: INT8 Training with Loss-aware Compensation and Backward Quantization for Tiny On-device Learning](https://www.usenix.org/conference/atc21/presentation/zhou-qihua). 2021. ATC
 - [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://dl.acm.org/doi/10.1145/3477132.3483553). 2021. SOSP
+- [A novel memory-efficient deep learning training framework via error-bounded lossy compression](https://dl.acm.org/doi/10.1145/3437801.3441597). 2021. PPoPP
+- [waveSZ: a hardware-algorithm co-design of efficient lossy compression for scientific data](https://dl.acm.org/doi/abs/10.1145/3332466.3374525). 2020. PPoPP
 - [A generic communication scheduler for distributed DNN training acceleration](https://dl.acm.org/doi/10.1145/3341301.3359642). 2019. SOSP. Chinese blog: [Summary of A generic communication scheduler for distributed DNN training acceleration](https://neth-lab.netlify.app/publication/20-12-21-a-generic-communication-scheduler-for-distributed-dnn-training-acceleration/)
 - [Gaia: Geo-distributed machine learning approaching lan speeds](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/hsieh). 2017. NSDI
 
@@ -107,8 +116,14 @@ This section will introduce some researches focus on tradition Machine Learning,
 
 <h4 id="2.4">2.4 Asynchronous Computing</h4>
 
+<h4 id="2.4.1">2.4.1 Asynchronous for FL</h4>
+
 - [VF2Boost: Very Fast Vertical Federated Gradient Boosting for Cross-Enterprise Learning](https://dl.acm.org/doi/abs/10.1145/3448016.3457241)
 - [Secure bilevel asynchronous vertical federated learning with backward updating](https://arxiv.org/abs/2103.00958). 2021. arXiv
+
+<h4 id="2.4.2">2.4.2 Asynchronous for Machine Learning</h4>
+
+- [Asynchrony versus bulk-synchrony for a generalized N-body problem from genomics](https://dl.acm.org/doi/10.1145/3437801.3441580). 2021. PPoPP
 
 ---
 <h2 id="3">3 Opensource Projects</h2>

@@ -30,18 +30,22 @@ Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/project/) with 
 
 <h4 id="1.1">1.1 Blogs</h4>
 
-- [Understand the types of federated learning](https://blog.openmined.org/federated-learning-types/). Sep 2020: 
-A brief introduction to the terminology and classification of federal learning
+- [Understand the types of federated learning](https://blog.openmined.org/federated-learning-types/). Sep 2020
+    - A brief introduction to the terminology and classification of federal learning
 
 <h4 id="1.2">1.2 Survey</h4>
 
-- [Federated Machine Learning: Concept and Applications](https://dl.acm.org/doi/abs/10.1145/3298981). TITS. Qiang Yang. 2019: Chinese blog: [Overview of Federated Learning](https://neth-lab.netlify.app/publication/21-3-2-overview-of-federated-learning/)
+- [Federated Machine Learning: Concept and Applications](https://dl.acm.org/doi/abs/10.1145/3298981). TITS. Qiang Yang. 2019
+    - Chinese blog: [Overview of Federated Learning. Section 1](https://neth-lab.netlify.app/publication/21-3-2-overview-of-federated-learning/)
 
 <h4 id="1.3">1.3 Algorithms</h4>
 
-- [Practical Secure Aggregation for Privacy-Preserving Machine Learning](https://dl.acm.org/doi/abs/10.1145/3133956.3133982). 2017. CCS: Horizontal logistic regression algorithm
-- [Private federated learning on vertically partitioned data via entity resolution and additively homomorphic encryption](https://arxiv.org/abs/1711.10677). 2017. arXiv: Vertical logistic regression algorithm.
-- [SecureBoost: A Lossless Federated Learning Framework](https://ieeexplore.ieee.org/abstract/document/9440789). 2021. IEEE Intelligent Systems: Vertical secure boosting algorithm.
+- [Practical Secure Aggregation for Privacy-Preserving Machine Learning](https://dl.acm.org/doi/abs/10.1145/3133956.3133982). 2017. CCS
+    - Horizontal logistic regression algorithm
+- [Private federated learning on vertically partitioned data via entity resolution and additively homomorphic encryption](https://arxiv.org/abs/1711.10677). 2017. arXiv
+    - Vertical logistic regression algorithm.
+- [SecureBoost: A Lossless Federated Learning Framework](https://ieeexplore.ieee.org/abstract/document/9440789). 2021. IEEE Intelligent Systems
+    - Vertical secure boosting algorithm.
 
 ---
 
@@ -60,7 +64,8 @@ This section will collect paper from both **Distributed framework for other comp
 - [Towards federated learning at scale: System design](https://mlsys.org/Conferences/2019/doc/2019/193.pdf). 2019. MLSys
     - A framework for scaling horizontal FL. 
     - Chinese blogs: [Survey of Distributed Framework in Federated Learning. Section 3](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
-- [FedML: A Research Library and Benchmark for Federated Machine Learning](https://arxiv.org/abs/2007.13518). 2020. arXiv: A library and system architecture for FL.
+- [FedML: A Research Library and Benchmark for Federated Machine Learning](https://arxiv.org/abs/2007.13518). 2020. arXiv
+    - A library and system architecture for FL.
 
 <h4 id="2.2.2">2.2.2 Framework for Machine Learning</h4>
 
@@ -87,13 +92,18 @@ Since currently there is a few research paper about distributed framework for FL
 
 This section includes key paper in distributed framework for machine learning.
 
-- [MapReduce: simplified data processing on large clusters](https://dl.acm.org/doi/abs/10.1145/1327452.1327492). 2004. OSDI. Chinese blog: [Summary of MapReduce](https://neth-lab.netlify.app/publication/21-1-4-summary-of-mapreduce/)
-- [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/zaharia). 2012. OSDI. Chinese blog: [Summary of Apache Spark](https://neth-lab.netlify.app/publication/21-3-19-summary-of-apache-spark/)
+- [MapReduce: simplified data processing on large clusters](https://dl.acm.org/doi/abs/10.1145/1327452.1327492). 2004. OSDI
+    - Chinese blog: [Summary of MapReduce](https://neth-lab.netlify.app/publication/21-1-4-summary-of-mapreduce/)
+- [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/zaharia). 2012. OSDI
+    - Chinese blog: [Summary of Apache Spark](https://neth-lab.netlify.app/publication/21-3-19-summary-of-apache-spark/)
 - [Large scale distributed deep networks](https://proceedings.neurips.cc/paper/2012/file/6aca97005c68f1206823815f66102863-Paper.pdf). 2012. NeurIPS
-- [Scaling distributed machine learning with the parameter server](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/li_mu). 2014. OSDI. Chinese blog: [Summary of Parameter Server](https://neth-lab.netlify.app/publication/21-10-04-summary-of-parameter-server/)
+- [Scaling distributed machine learning with the parameter server](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/li_mu). 2014. OSDI
+    - Chinese blog: [Summary of Parameter Server](https://neth-lab.netlify.app/publication/21-10-04-summary-of-parameter-server/)
 - [Spark sql: Relational data processing in spark](https://dl.acm.org/doi/abs/10.1145/2723372.2742797). 2015. SIGMOD
-- [Tensorflow: A system for large-scale machine learning](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/abadi). 2016. OSDI. Chinese blog: [Summary of TensorFlow](https://neth-lab.netlify.app/publication/21-10-04-summary-of-tensorflow/)
-- [Ray: A Distributed Framework for Emerging AI Applications](https://www.usenix.org/conference/osdi18/presentation/moritz). 2018. OSDI. Chinese blog: [Summary of Ray](https://neth-lab.netlify.app/publication/21-10-24-summary-of-ray/)
+- [Tensorflow: A system for large-scale machine learning](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/abadi). 2016. OSDI
+    - Chinese blog: [Summary of TensorFlow](https://neth-lab.netlify.app/publication/21-10-04-summary-of-tensorflow/)
+- [Ray: A Distributed Framework for Emerging AI Applications](https://www.usenix.org/conference/osdi18/presentation/moritz). 2018. OSDI
+    - Chinese blog: [Summary of Ray](https://neth-lab.netlify.app/publication/21-10-24-summary-of-ray/)
 - [PyTorch: An Imperative Style, High-Performance Deep Learning Library](https://proceedings.neurips.cc/paper/2019/hash/bdbca288fee7f92f2bfa9f7012727740-Abstract.html). 2019. NeurIPS
 - [PipeDream: generalized pipeline parallelism for DNN training](https://dl.acm.org/doi/abs/10.1145/3341301.3359646). 2019. SOSP
 

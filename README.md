@@ -3,7 +3,7 @@ A paper list of federated learning - About system design. Currently, it mainly f
 
 Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/project/) with a more detailed classification.
 
-**Last update: December, 10th, 2021.**
+**Last update: December, 11th, 2021.**
 
 ---
 
@@ -49,13 +49,17 @@ A brief introduction to the terminology and classification of federal learning
 
 <h4 id="2.1">2.1 Survey</h4>
 
+- [A Survey on Distributed Machine Learning](https://dl.acm.org/doi/abs/10.1145/3377454). 2020. ACM Computing Surveys
+
 <h4 id="2.2">2.2 Distributed computing framework</h4>
 
 This section will collect paper from both **Distributed framework for other computation (e.g. DNN and batch-based computation)** and **Distributed System for FL**
 
 <h4 id="2.2.1">2.2.1 Framework for FL</h4>
 
-- [Towards federated learning at scale: System design](https://mlsys.org/Conferences/2019/doc/2019/193.pdf). 2019. MLSys: A framework scaling for horizontal FL. Chinese blogs: [Survey of Distributed Framework in Federated Learning](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
+- [Towards federated learning at scale: System design](https://mlsys.org/Conferences/2019/doc/2019/193.pdf). 2019. MLSys
+    - A framework for scaling horizontal FL. 
+    - Chinese blogs: [Survey of Distributed Framework in Federated Learning. Section 3](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
 - [FedML: A Research Library and Benchmark for Federated Machine Learning](https://arxiv.org/abs/2007.13518). 2020. arXiv: A library and system architecture for FL.
 
 <h4 id="2.2.2">2.2.2 Framework for Machine Learning</h4>
@@ -63,6 +67,8 @@ This section will collect paper from both **Distributed framework for other comp
 Since currently there is a few research paper about distributed framework for FL, here we provide related work focus on Machine Learning Framework for reference.
 
 - [Scaling Large Production Clusters with Partitioned Synchronization](https://www.usenix.org/conference/atc21/presentation/feng-yihui). 2021. ATC
+    - A distributed resource scheduler architecture. Use partition synchronization method to reduce the impact of contention on high-quality resources and staleness of local states, which causes high scheduling latency.
+    - Chinese blog: [Survey of Distributed Framework in Federated Learning. Section 4](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
 - [Shard Manager: A Generic Shard Management Framework for Geo-distributed Applications](https://dl.acm.org/doi/10.1145/3477132.3483546). 2021. SOSP
 - [Rabia: Simplifying State-Machine Replication Through Randomization](https://dl.acm.org/doi/10.1145/3477132.3483582). 2021. SOSP
 - [Zico: Efficient GPU Memory Sharing for Concurrent DNN Training](https://www.usenix.org/conference/atc21/presentation/lim). 2021. ATC
@@ -70,7 +76,9 @@ Since currently there is a few research paper about distributed framework for FL
 - [Are dynamic memory managers on GPUs slow?: a survey and benchmarks](https://dl.acm.org/doi/10.1145/3437801.3441612). 2021. PPoPP
 - [DAPPLE: a pipelined data parallel approach for training large models](https://dl.acm.org/doi/10.1145/3437801.3441593). 2021. PPoPP
 - [Sentinel: Efficient Tensor Migration and Allocation on Heterogeneous Memory Systems for Deep Learning](https://ieeexplore.ieee.org/abstract/document/9407112). 2021. HPCA
-- [GAIA: A System for Interactive Analysis on Distributed Graphs Using a High-Level Language](https://www.usenix.org/system/files/nsdi21-qian.pdf). 2021. NSDI: A memory management system for interactive graph computation. Chineses blog: [Survey of Distributed Framework in Federated Learning](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
+- [GAIA: A System for Interactive Analysis on Distributed Graphs Using a High-Level Language](https://www.usenix.org/system/files/nsdi21-qian.pdf). 2021. NSDI 
+    - A memory management system for interactive graph computation, at distributed infrastructure layer. 
+    - Chineses blog: [Survey of Distributed Framework in Federated Learning. Section 2](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
 - [Ownership: A Distributed Futures System for Fine-Grained Tasks](https://www.usenix.org/system/files/nsdi21-wang.pdf). 2021. NSDI
 - [Hoplite: efficient and fault-tolerant collective communication for task-based distributed systems](https://dl.acm.org/doi/abs/10.1145/3452296.3472897). 2021. SIGCOMM
 - [HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism](https://www.usenix.org/conference/atc20/presentation/park). 2020. ATC

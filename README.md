@@ -87,7 +87,6 @@ Since currently there is a few research paper about distributed framework for FL
     - A memory management system for interactive graph computation, at distributed infrastructure layer. 
     - Chineses blog: [Survey of Distributed Framework in Federated Learning. Section 2](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
 - [Ownership: A Distributed Futures System for Fine-Grained Tasks](https://www.usenix.org/system/files/nsdi21-wang.pdf). 2021. NSDI
-- [Hoplite: efficient and fault-tolerant collective communication for task-based distributed systems](https://dl.acm.org/doi/abs/10.1145/3452296.3472897). 2021. SIGCOMM
 - [HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism](https://www.usenix.org/conference/atc20/presentation/park). 2020. ATC
 
 <h4 id="2.2.3">2.2.3 Key Papers</h4>
@@ -126,6 +125,11 @@ This section includes key paper in distributed framework for machine learning.
 This section will introduce some researches focus on tradition Machine Learning, which is related to Federated Learning.
 
 - [Octo: INT8 Training with Loss-aware Compensation and Backward Quantization for Tiny On-device Learning](https://www.usenix.org/conference/atc21/presentation/zhou-qihua). 2021. ATC
+    - A INT8 quantization model, which is used in tiny on-device learning
+    - Chinese blog: [Survey of Algorithm-based Optimization for Federated Learning. Section 4](https://neth-lab.netlify.app/publication/21-11-23-survey-of-communication-in-federated-learning/)
+- [Hoplite: efficient and fault-tolerant collective communication for task-based distributed systems](https://dl.acm.org/doi/abs/10.1145/3452296.3472897). 2021. SIGCOMM
+    - Introduce collective communication to task-based runtime distributed frameworks (e.g., Ray, Dask, Hydro)
+    - Chinese blog: [Survey of Distributed Framework in Federated Learning. Section 5](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
 - [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://dl.acm.org/doi/10.1145/3477132.3483553). 2021. SOSP
 - [A novel memory-efficient deep learning training framework via error-bounded lossy compression](https://dl.acm.org/doi/10.1145/3437801.3441597). 2021. PPoPP
 - [waveSZ: a hardware-algorithm co-design of efficient lossy compression for scientific data](https://dl.acm.org/doi/abs/10.1145/3332466.3374525). 2020. PPoPP

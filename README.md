@@ -118,7 +118,11 @@ This section includes key paper in distributed framework for machine learning.
 - [Cheetah: Optimizing and Accelerating Homomorphic Encryption for Private Inference](https://ieeexplore.ieee.org/abstract/document/9407118). 2021. HPCA
 - [Communication-Efficient Federated Learning with Adaptive Parameter Freezing](https://ieeexplore.ieee.org/abstract/document/9546506/). 2021. ICDCS
 - [BatchCrypt: Efficient Homomorphic Encryption for Cross-Silo Federated Learning](https://www.usenix.org/conference/atc20/presentation/zhang-chengliang). 2020. ATC
+    - Use quantization method to compress encrypted data size, which reduces the costs of communication and computation.
+    - Chinese blog: [Survey of Algorithm-based Optimization for Federated Learning. Section 3](https://neth-lab.netlify.app/publication/21-11-23-survey-of-communication-in-federated-learning/)
 - [CMFL: Mitigating Communication Overhead for Federated Learning](https://ieeexplore.ieee.org/abstract/document/8885054). 2019. ICDCS
+    - Reduce communication costs by reducing times of communication between edge devices and center server.
+    - Chinese blog: [Survey of Algorithm-based Optimization for Federated Learning. Section 2](https://neth-lab.netlify.app/publication/21-11-23-survey-of-communication-in-federated-learning/)
 
 <h4 id="2.3.2">2.3.2 Efficiency for Machine Learning</h4>
 

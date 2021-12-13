@@ -71,6 +71,8 @@ This section will collect paper from both **Distributed framework for other comp
 
 Since currently there is a few research paper about distributed framework for FL, here we provide related work focus on Machine Learning Framework for reference.
 
+- [PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections](https://www.usenix.org/conference/osdi21/presentation/wang). 2021. OSDI
+- [P3: Distributed Deep Graph Learning at Scale](https://www.usenix.org/conference/osdi21/presentation/gandhi). 2021. OSDI
 - [Scaling Large Production Clusters with Partitioned Synchronization](https://www.usenix.org/conference/atc21/presentation/feng-yihui). 2021. ATC
     - A distributed resource scheduler architecture. Use partition synchronization method to reduce the impact of contention on high-quality resources and staleness of local states, which causes high scheduling latency.
     - Chinese blog: [Survey of Distributed Framework in Federated Learning. Section 4](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)

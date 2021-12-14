@@ -3,7 +3,7 @@ A paper list of federated learning - About system design. Currently, it mainly f
 
 Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/project/) with a more detailed classification.
 
-**Last update: December, 11th, 2021.**
+**Last update: December, 14th, 2021.**
 
 ---
 
@@ -44,8 +44,10 @@ Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/project/) with 
     - Horizontal logistic regression algorithm
 - [Private federated learning on vertically partitioned data via entity resolution and additively homomorphic encryption](https://arxiv.org/abs/1711.10677). 2017. arXiv
     - Vertical logistic regression algorithm.
+    - Chinese blog: [Machine Learning & Federated Learning. Section 5](https://neth-lab.netlify.app/publication/21-09-01-machine-learning-and-federated-learning/#section2)
 - [SecureBoost: A Lossless Federated Learning Framework](https://ieeexplore.ieee.org/abstract/document/9440789). 2021. IEEE Intelligent Systems
     - Vertical secure boosting algorithm.
+    - Chinese blog: [Machine Learning & Federated Learning. Section 6](https://neth-lab.netlify.app/publication/21-09-01-machine-learning-and-federated-learning/#section2)
 
 ---
 

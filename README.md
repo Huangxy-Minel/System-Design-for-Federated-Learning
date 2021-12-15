@@ -135,7 +135,7 @@ This section will introduce some researches focus on tradition Machine Learning,
     - Chinese blog: [Survey of Algorithm-based Optimization for Federated Learning. Section 4](https://neth-lab.netlify.app/publication/21-11-23-survey-of-communication-in-federated-learning/)
 - [Hoplite: efficient and fault-tolerant collective communication for task-based distributed systems](https://dl.acm.org/doi/abs/10.1145/3452296.3472897). 2021. SIGCOMM
     - Introduce collective communication to task-based runtime distributed frameworks (e.g., Ray, Dask, Hydro)
-    - Chinese blog: [Survey of Distributed Framework in Federated Learning. Section 5](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
+    - Chinese blog: [Summary of Hoplite](https://neth-lab.netlify.app/publication/21-12-15-summary-of-hoplite/)
 - [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://dl.acm.org/doi/10.1145/3477132.3483553). 2021. SOSP
 - [A novel memory-efficient deep learning training framework via error-bounded lossy compression](https://dl.acm.org/doi/10.1145/3437801.3441597). 2021. PPoPP
 - [waveSZ: a hardware-algorithm co-design of efficient lossy compression for scientific data](https://dl.acm.org/doi/abs/10.1145/3332466.3374525). 2020. PPoPP

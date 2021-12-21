@@ -3,7 +3,7 @@ A paper list of federated learning - About system design. Currently, it mainly f
 
 Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/project/) with a more detailed classification.
 
-**Last update: December, 14th, 2021.**
+**Last update: December, 21th, 2021.**
 
 ---
 
@@ -56,6 +56,8 @@ Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/project/) with 
 <h4 id="2.1">2.1 Survey</h4>
 
 - [A Survey on Distributed Machine Learning](https://dl.acm.org/doi/abs/10.1145/3377454). 2020. ACM Computing Surveys
+    - About system challenges for distributed machine learning
+    - Chinese blog: [Survey of Distributed Framework in Federated Learning. Section 1](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
 
 <h4 id="2.2">2.2 Distributed computing framework</h4>
 

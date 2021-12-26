@@ -3,7 +3,7 @@ A paper list of federated learning - About system design. Currently, it mainly f
 
 Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/project/) with a more detailed classification.
 
-**Last update: December, 21th, 2021.**
+**Last update: December, 26th, 2021.**
 
 ---
 

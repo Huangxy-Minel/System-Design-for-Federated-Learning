@@ -24,6 +24,8 @@ Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/project/) with 
 
 #### [3 Opensource Projects](#3)
 
+#### [4 Researchers](#4)
+
 ---
 
 <h2 id="1">1 Federated Learning Foundation</h2>
@@ -58,6 +60,7 @@ Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/project/) with 
 - [A Survey on Distributed Machine Learning](https://dl.acm.org/doi/abs/10.1145/3377454). 2020. ACM Computing Surveys
     - About system challenges for distributed machine learning
     - Chinese blog: [Survey of Distributed Framework in Federated Learning. Section 1](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
+- [A Survey on Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection](https://ieeexplore.ieee.org/abstract/document/9599369). 2021. TKDE
 
 <h4 id="2.2">2.2 Distributed computing framework</h4>
 
@@ -164,3 +167,9 @@ This section will introduce some researches focus on tradition Machine Learning,
 - [PySyft](https://github.com/OpenMined/PySyft)
 - [Tensorflow Federated](https://github.com/tensorflow/federated)
 - [PyTorch Implementation](https://github.com/shaoxiongji/federated-learning): An implementation based on PyTorch. From [shaoxiongji](https://github.com/shaoxiongji)
+
+<h2 id="4">4 Researchers</h2>
+
+- Matei Zaharia, University of Michigan
+- Ion Stoica, Professor of Computer Science, UC Berkeley
+- Matei Zaharia, Stanford DAWN Lab and Databricks

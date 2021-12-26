@@ -170,6 +170,6 @@ This section will introduce some researches focus on tradition Machine Learning,
 
 <h2 id="4">4 Researchers</h2>
 
-- Matei Zaharia, University of Michigan
-- Ion Stoica, Professor of Computer Science, UC Berkeley
-- Matei Zaharia, Stanford DAWN Lab and Databricks
+- [Mosharaf Chowdhury, University of Michigan](https://scholar.google.com.hk/citations?user=Dzh5C9EAAAAJ&hl=zh-CN&oi=sra)
+- [Ion Stoica, Professor of Computer Science, UC Berkeley](https://scholar.google.com.hk/citations?hl=zh-CN&user=vN-is70AAAAJ)
+- [Matei Zaharia, Stanford DAWN Lab and Databricks](https://scholar.google.com.hk/citations?hl=zh-CN&user=I1EvjZsAAAAJ)

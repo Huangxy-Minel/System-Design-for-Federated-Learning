@@ -1,9 +1,9 @@
 ## System Design for Federated Learning
-A paper list of federated learning - About system design. Currently, it mainly focuses on **distributed computing framework design, communication efficiency and asynchronous computing** for **Federated Learning** (Cross-Silo & Cross-devices). 
+A paper list of federated learning - About system design. Currently, it mainly focuses on **distributed computing framework, communication & computation efficiency** for **Federated Learning** (Cross-Silo & Cross-devices). 
 
 Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/project/) with a more detailed classification.
 
-**Last update: December, 26th, 2021.**
+**Last update: Janary, 2th, 2022.**
 
 ---
 
@@ -19,8 +19,8 @@ Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/project/) with 
 #### [2 Research Areas](#2)
 - [2.1 Survey](#2.1)
 - [2.2 Distributed computing framework](#2.2)
-- [2.3 Communication efficiency](#2.3)
-- [2.4 Asynchronous computing](#2.4)
+- [2.3 Communication & Computation efficiency](#2.3)
+- [2.4 Memory](#2.4)
 
 #### [3 Opensource Projects](#3)
 
@@ -59,8 +59,10 @@ Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/project/) with 
 
 - [A Survey on Distributed Machine Learning](https://dl.acm.org/doi/abs/10.1145/3377454). 2020. ACM Computing Surveys
     - About system challenges for distributed machine learning
-    - Chinese blog: [Survey of Distributed Framework in Federated Learning. Section 1](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
+    - Chinese blog: [Survey of System Design for Distributed ML & FL. Section 2.1](https://neth-lab.netlify.app/publication/21-12-31-survey-of-system-design-for-distributed-ml-and-fl/)
 - [A Survey on Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection](https://ieeexplore.ieee.org/abstract/document/9599369). 2021. TKDE
+    - About system challenges for Fedrated Learning
+    - Chinese blog: [Survey of System Design for Distributed ML & FL. Section 2.2](https://neth-lab.netlify.app/publication/21-12-31-survey-of-system-design-for-distributed-ml-and-fl/)
 
 <h4 id="2.2">2.2 Distributed computing framework</h4>
 
@@ -90,9 +92,6 @@ Since currently there is a few research paper about distributed framework for FL
 - [Are dynamic memory managers on GPUs slow?: a survey and benchmarks](https://dl.acm.org/doi/10.1145/3437801.3441612). 2021. PPoPP
 - [DAPPLE: a pipelined data parallel approach for training large models](https://dl.acm.org/doi/10.1145/3437801.3441593). 2021. PPoPP
 - [Sentinel: Efficient Tensor Migration and Allocation on Heterogeneous Memory Systems for Deep Learning](https://ieeexplore.ieee.org/abstract/document/9407112). 2021. HPCA
-- [GAIA: A System for Interactive Analysis on Distributed Graphs Using a High-Level Language](https://www.usenix.org/system/files/nsdi21-qian.pdf). 2021. NSDI 
-    - A memory management system for interactive graph computation, at distributed infrastructure layer. 
-    - Chineses blog: [Survey of Distributed Framework in Federated Learning. Section 2](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
 - [Ownership: A Distributed Futures System for Fine-Grained Tasks](https://www.usenix.org/system/files/nsdi21-wang.pdf). 2021. NSDI
 - [HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism](https://www.usenix.org/conference/atc20/presentation/park). 2020. ATC
 
@@ -131,6 +130,9 @@ This section includes key paper in distributed framework for machine learning.
     - Reduce communication costs by reducing times of communication between edge devices and center server.
     - Chinese blog: [Survey of Algorithm-based Optimization for Federated Learning. Section 2](https://neth-lab.netlify.app/publication/21-11-23-survey-of-communication-in-federated-learning/)
 
+- [VF2Boost: Very Fast Vertical Federated Gradient Boosting for Cross-Enterprise Learning](https://dl.acm.org/doi/abs/10.1145/3448016.3457241)
+- [Secure bilevel asynchronous vertical federated learning with backward updating](https://arxiv.org/abs/2103.00958). 2021. arXiv
+
 <h4 id="2.3.2">2.3.2 Efficiency for Machine Learning</h4>
 
 This section will introduce some researches focus on tradition Machine Learning, which is related to Federated Learning.
@@ -142,23 +144,26 @@ This section will introduce some researches focus on tradition Machine Learning,
     - Introduce collective communication to task-based runtime distributed frameworks (e.g., Ray, Dask, Hydro)
     - Chinese blog: [Summary of Hoplite](https://neth-lab.netlify.app/publication/21-12-15-summary-of-hoplite/)
 - [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://dl.acm.org/doi/10.1145/3477132.3483553). 2021. SOSP
-- [A novel memory-efficient deep learning training framework via error-bounded lossy compression](https://dl.acm.org/doi/10.1145/3437801.3441597). 2021. PPoPP
 - [waveSZ: a hardware-algorithm co-design of efficient lossy compression for scientific data](https://dl.acm.org/doi/abs/10.1145/3332466.3374525). 2020. PPoPP
 - [A generic communication scheduler for distributed DNN training acceleration](https://dl.acm.org/doi/10.1145/3341301.3359642). 2019. SOSP. Chinese blog: [Summary of A generic communication scheduler for distributed DNN training acceleration](https://neth-lab.netlify.app/publication/20-12-21-a-generic-communication-scheduler-for-distributed-dnn-training-acceleration/)
 - [Gaia: Geo-distributed machine learning approaching lan speeds](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/hsieh). 2017. NSDI
+- [Asynchrony versus bulk-synchrony for a generalized N-body problem from genomics](https://dl.acm.org/doi/10.1145/3437801.3441580). 2021. PPoPP
 
 ---
 
-<h4 id="2.4">2.4 Asynchronous Computing</h4>
+<h4 id="2.4">2.4 Memory</h4>
 
-<h4 id="2.4.1">2.4.1 Asynchronous for FL</h4>
+<h4 id="2.4.1">2.4.1 Memory optimization for FL</h4>
 
-- [VF2Boost: Very Fast Vertical Federated Gradient Boosting for Cross-Enterprise Learning](https://dl.acm.org/doi/abs/10.1145/3448016.3457241)
-- [Secure bilevel asynchronous vertical federated learning with backward updating](https://arxiv.org/abs/2103.00958). 2021. arXiv
 
-<h4 id="2.4.2">2.4.2 Asynchronous for Machine Learning</h4>
 
-- [Asynchrony versus bulk-synchrony for a generalized N-body problem from genomics](https://dl.acm.org/doi/10.1145/3437801.3441580). 2021. PPoPP
+<h4 id="2.4.2">2.4.2 Memory optimization for Machine Learning</h4>
+
+- [GAIA: A System for Interactive Analysis on Distributed Graphs Using a High-Level Language](https://www.usenix.org/system/files/nsdi21-qian.pdf). 2021. NSDI 
+    - A memory management system for interactive graph computation, at distributed infrastructure layer. 
+    - Chineses blog: [Survey of Distributed Framework in Federated Learning. Section 2](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
+
+- [A novel memory-efficient deep learning training framework via error-bounded lossy compression](https://dl.acm.org/doi/10.1145/3437801.3441597). 2021. PPoPP
 
 ---
 <h2 id="3">3 Opensource Projects</h2>

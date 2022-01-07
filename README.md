@@ -63,6 +63,7 @@ Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/project/) with 
 - [A Survey on Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection](https://ieeexplore.ieee.org/abstract/document/9599369). 2021. TKDE
     - About system challenges for Fedrated Learning
     - Chinese blog: [Survey of System Design for Distributed ML & FL. Section 2.2](https://neth-lab.netlify.app/publication/21-12-31-survey-of-system-design-for-distributed-ml-and-fl/)
+- [System Optimization in Synchronous Federated Training: A Survey](https://arxiv.org/abs/2109.03999). 2021. arXiv
 
 <h4 id="2.2">2.2 Distributed computing framework</h4>
 
@@ -80,8 +81,8 @@ This section will collect paper from both **Distributed framework for other comp
 
 Since currently there is a few research paper about distributed framework for FL, here we provide related work focus on Machine Learning Framework for reference.
 
-- [PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections](https://www.usenix.org/conference/osdi21/presentation/wang). 2021. OSDI
-- [P3: Distributed Deep Graph Learning at Scale](https://www.usenix.org/conference/osdi21/presentation/gandhi). 2021. OSDI
+- [PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections](https://www.usenix.org/conference/osdi21/presentation/wang). 2021. OSDI 
+- [P3: Distributed Deep Graph Learning at Scale](https://www.usenix.org/conference/osdi21/presentation/gandhi). 2021. OSDI
 - [Scaling Large Production Clusters with Partitioned Synchronization](https://www.usenix.org/conference/atc21/presentation/feng-yihui). 2021. ATC
     - A distributed resource scheduler architecture. Use partition synchronization method to reduce the impact of contention on high-quality resources and staleness of local states, which causes high scheduling latency.
     - Chinese blog: [Survey of Distributed Framework in Federated Learning. Section 4](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
@@ -178,3 +179,4 @@ This section will introduce some researches focus on tradition Machine Learning,
 - [Mosharaf Chowdhury, University of Michigan](https://scholar.google.com.hk/citations?user=Dzh5C9EAAAAJ&hl=zh-CN&oi=sra)
 - [Ion Stoica, Professor of Computer Science, UC Berkeley](https://scholar.google.com.hk/citations?hl=zh-CN&user=vN-is70AAAAJ)
 - [Matei Zaharia, Stanford DAWN Lab and Databricks](https://scholar.google.com.hk/citations?hl=zh-CN&user=I1EvjZsAAAAJ)
+- [Wei Wang, HKUST](https://scholar.google.com/citations?user=FeJrzPMAAAAJ)

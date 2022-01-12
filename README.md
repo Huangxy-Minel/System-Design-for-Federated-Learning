@@ -64,6 +64,8 @@ Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/publication/21-
 
 <h3 id="2.1">2.1 Survey</h3>
 
+- [A Comprehensive Survey of Privacy-preserving Federated Learning: A Taxonomy, Review, and Future Directions](https://dl.acm.org/doi/abs/10.1145/3460427). 2021. ACM Cmputing Surveys
+
 - [A Quantitative Survey of Communication Optimizations in Distributed Deep Learning](https://ieeexplore.ieee.org/abstract/document/9275615). 2021. IEEE Network
 
 - [A Survey on Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection](https://ieeexplore.ieee.org/abstract/document/9599369). 2021. TKDE
@@ -111,6 +113,8 @@ This section will collect paper from both **Distributed framework for other comp
 
 - [Sphinx: Enabling Privacy-Preserving Online Learning over the Cloud](https://www.ieee-security.org/TC/SP2022/program-papers.html). 2022. S&P
 
+- [Throughput-Optimal Topology Design for Cross-Silo Federated Learning](https://arxiv.org/abs/2010.12229). 2020. arXiv
+
 - [Towards federated learning at scale: System design](https://mlsys.org/Conferences/2019/doc/2019/193.pdf). 2019. MLSys
     - A framework for scaling horizontal FL. 
     - Chinese blogs: [Survey of Distributed Framework in Federated Learning. Section 3](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
@@ -152,6 +156,7 @@ Since currently there is a few research paper about distributed framework for FL
 
 <h5 id="2.3.2.2">2.3.2.2 Scheduler</h5>
 
+- [CrystalPerf: Learning to Characterize the Performance of Dataflow Computation through Code Analysis](https://www.usenix.org/conference/atc21/presentation/tian). 2021. ATC
 
 - [P3: Distributed Deep Graph Learning at Scale](https://www.usenix.org/conference/osdi21/presentation/gandhi). 2021. OSDI
 

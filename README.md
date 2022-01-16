@@ -1,9 +1,9 @@
 ## System Design for Federated Learning
 A paper list of federated learning - About system design. Currently, it mainly focuses on **distributed computing framework, communication & computation efficiency** for **Federated Learning** (Cross-Silo & Cross-devices). 
 
-Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/publication/21-12-31-survey-of-system-design-for-distributed-ml-and-fl/) with a more detailed classification.
+**Chinese blogs**: [Neth-Lab](https://neth-lab.netlify.app/publication/21-12-31-survey-of-system-design-for-distributed-ml-and-fl/), includes study notes, tutorials and development documents.
 
-**Last update: Janary, 12th, 2022.**
+**Last update: Janary, 15th, 2022.**
 
 ---
 
@@ -48,11 +48,11 @@ Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/publication/21-
 
 - [Private federated learning on vertically partitioned data via entity resolution and additively homomorphic encryption](https://arxiv.org/abs/1711.10677). 2017. arXiv
     - Vertical logistic regression algorithm.
-    - Chinese blog: [Machine Learning & Federated Learning. Section 5](https://neth-lab.netlify.app/publication/21-09-01-machine-learning-and-federated-learning/#section2)
+    - Chinese blog: [Machine Learning & Federated Learning. Section 5](https://neth-lab.netlify.app/publication/21-09-01-machine-learning-and-federated-learning/#section5)
 
 - [SecureBoost: A Lossless Federated Learning Framework](https://ieeexplore.ieee.org/abstract/document/9440789). 2021. IEEE Intelligent Systems
     - Vertical secure boosting algorithm.
-    - Chinese blog: [Machine Learning & Federated Learning. Section 6](https://neth-lab.netlify.app/publication/21-09-01-machine-learning-and-federated-learning/#section2)
+    - Chinese blog: [Machine Learning & Federated Learning. Section 6](https://neth-lab.netlify.app/publication/21-09-01-machine-learning-and-federated-learning/#section6)
 
 ---
 
@@ -70,9 +70,11 @@ Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/publication/21-
 
 - [A Survey on Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection](https://ieeexplore.ieee.org/abstract/document/9599369). 2021. TKDE
     - About system challenges for Fedrated Learning
-    - Chinese blog: [Survey of System Design for Distributed ML & FL. Section 2.2](https://neth-lab.netlify.app/publication/21-12-31-survey-of-system-design-for-distributed-ml-and-fl/)
+    - Chinese blog: [Survey of System Design for Distributed ML & FL. Section 2.2](https://neth-lab.netlify.app/publication/21-12-31-survey-of-system-design-for-distributed-ml-and-fl/#section2)
 
 - [System Optimization in Synchronous Federated Training: A Survey](https://arxiv.org/abs/2109.03999). 2021. arXiv
+    - Focus on time-to-accuracy optimization for FL system
+    - Chinese blog: [Survey of System Design for Distributed ML & FL. Section 2.3](https://neth-lab.netlify.app/publication/21-12-31-survey-of-system-design-for-distributed-ml-and-fl/#section2)
 
 - [A Survey on Distributed Machine Learning](https://dl.acm.org/doi/abs/10.1145/3377454). 2020. ACM Computing Surveys
     - About system challenges for distributed machine learning
@@ -93,6 +95,8 @@ Here is Chinese version: [Neth-Lab](https://neth-lab.netlify.app/publication/21-
 
 - [FedML: A Research Library and Benchmark for Federated Machine Learning](https://arxiv.org/abs/2007.13518). 2020. arXiv
     - A library and system architecture for FL.
+
+- [FDML: A Collaborative Machine Learning Framework for Distributed Features](https://dl.acm.org/doi/abs/10.1145/3292500.3330765). 2019. KDD
 
 <h4 id="2.2.2">2.2.2 Optimization for ML</h4>
 
@@ -115,9 +119,9 @@ This section will collect paper from both **Distributed framework for other comp
 
 - [Throughput-Optimal Topology Design for Cross-Silo Federated Learning](https://arxiv.org/abs/2010.12229). 2020. arXiv
 
-- [Towards federated learning at scale: System design](https://mlsys.org/Conferences/2019/doc/2019/193.pdf). 2019. MLSys
+- [Survey of Framework-based Optimization for Federated Learning](https://mlsys.org/Conferences/2019/doc/2019/193.pdf). 2019. MLSys
     - A framework for scaling horizontal FL. 
-    - Chinese blogs: [Survey of Distributed Framework in Federated Learning. Section 3](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
+    - Chinese blogs: [Survey of Distributed Framework in Federated Learning. Section 3](https://neth-lab.netlify.app/publication/21-11-26-survey-of-framework-based-optimization-for-federated-learning/#section3)
 
 <h5 id="2.3.1.2">2.3.1.2 Scheduler</h5>
 
@@ -128,9 +132,13 @@ Since currently there is a few research paper about distributed framework for FL
 
 <h5 id="2.3.2.1">2.3.2.1 Topology</h5>
 
+- [DAPPLE: a pipelined data parallel approach for training large models](https://dl.acm.org/doi/10.1145/3437801.3441593). 2021. PPoPP
+
 - [PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections](https://www.usenix.org/conference/osdi21/presentation/wang). 2021. OSDI 
 
-- [Asynchrony versus bulk-synchrony for a generalized N-body problem from genomics](https://dl.acm.org/doi/10.1145/3437801.3441580). 2021. PPoPP
+- [P3: Distributed Deep Graph Learning at Scale](https://www.usenix.org/conference/osdi21/presentation/gandhi). 2021. OSDI
+
+- [HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism](https://www.usenix.org/conference/atc20/presentation/park). 2020. ATC
 
 - [PipeDream: generalized pipeline parallelism for DNN training](https://dl.acm.org/doi/abs/10.1145/3341301.3359646). 2019. SOSP
 
@@ -158,29 +166,15 @@ Since currently there is a few research paper about distributed framework for FL
 
 - [CrystalPerf: Learning to Characterize the Performance of Dataflow Computation through Code Analysis](https://www.usenix.org/conference/atc21/presentation/tian). 2021. ATC
 
-- [P3: Distributed Deep Graph Learning at Scale](https://www.usenix.org/conference/osdi21/presentation/gandhi). 2021. OSDI
-
 - [Scaling Large Production Clusters with Partitioned Synchronization](https://www.usenix.org/conference/atc21/presentation/feng-yihui). 2021. ATC
     - A distributed resource scheduler architecture. Use partition synchronization method to reduce the impact of contention on high-quality resources and staleness of local states, which causes high scheduling latency.
-    - Chinese blog: [Survey of Distributed Framework in Federated Learning. Section 4](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
+    - Chinese blog: [Survey of Framework-based Optimization for Federated Learning. Section 4](https://neth-lab.netlify.app/publication/21-11-26-survey-of-framework-based-optimization-for-federated-learning/#section4)
 
 - [Shard Manager: A Generic Shard Management Framework for Geo-distributed Applications](https://dl.acm.org/doi/10.1145/3477132.3483546). 2021. SOSP
 
-- [Rabia: Simplifying State-Machine Replication Through Randomization](https://dl.acm.org/doi/10.1145/3477132.3483582). 2021. SOSP
-
-- [Zico: Efficient GPU Memory Sharing for Concurrent DNN Training](https://www.usenix.org/conference/atc21/presentation/lim). 2021. ATC
-
 - [Advanced synchronization techniques for task-based runtime systems](https://dl.acm.org/doi/10.1145/3437801.3441601). 2021. PPoPP
 
-- [Are dynamic memory managers on GPUs slow?: a survey and benchmarks](https://dl.acm.org/doi/10.1145/3437801.3441612). 2021. PPoPP
-
-- [DAPPLE: a pipelined data parallel approach for training large models](https://dl.acm.org/doi/10.1145/3437801.3441593). 2021. PPoPP
-
-- [Sentinel: Efficient Tensor Migration and Allocation on Heterogeneous Memory Systems for Deep Learning](https://ieeexplore.ieee.org/abstract/document/9407112). 2021. HPCA
-
 - [Ownership: A Distributed Futures System for Fine-Grained Tasks](https://www.usenix.org/system/files/nsdi21-wang.pdf). 2021. NSDI
-
-- [HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism](https://www.usenix.org/conference/atc20/presentation/park). 2020. ATC
 
 ---
 
@@ -241,6 +235,12 @@ This section will introduce some researches focus on tradition Machine Learning,
     - Chineses blog: [Survey of Distributed Framework in Federated Learning. Section 2](https://neth-lab.netlify.app/publication/21-11-26-survey-of-distributed-framework-in-federated-learning/)
 
 - [A novel memory-efficient deep learning training framework via error-bounded lossy compression](https://dl.acm.org/doi/10.1145/3437801.3441597). 2021. PPoPP
+
+- [Zico: Efficient GPU Memory Sharing for Concurrent DNN Training](https://www.usenix.org/conference/atc21/presentation/lim). 2021. ATC
+
+- [Are dynamic memory managers on GPUs slow?: a survey and benchmarks](https://dl.acm.org/doi/10.1145/3437801.3441612). 2021. PPoPP
+
+- [Sentinel: Efficient Tensor Migration and Allocation on Heterogeneous Memory Systems for Deep Learning](https://ieeexplore.ieee.org/abstract/document/9407112). 2021. HPCA
 
 ---
 <h2 id="3">3 Opensource Projects</h2>

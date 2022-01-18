@@ -3,7 +3,7 @@ A paper list of federated learning - About system design. Currently, it mainly f
 
 **Chinese blogs**: [Neth-Lab](https://neth-lab.netlify.app/publication/21-12-31-survey-of-system-design-for-distributed-ml-and-fl/), includes study notes, tutorials and development documents.
 
-**Last update: Janary, 16th, 2022.**
+**Last update: Janary, 18th, 2022.**
 
 ---
 
@@ -197,8 +197,8 @@ Since currently there is a few research paper about distributed framework for FL
     - Chinese blog: [Summary of BatchCrypt](https://neth-lab.netlify.app/publication/22-01-12-summary-of-batchcrypt/)
 
 - [CMFL: Mitigating Communication Overhead for Federated Learning](https://ieeexplore.ieee.org/abstract/document/8885054). 2019. ICDCS
-    - Reduce communication costs by reducing times of communication between edge devices and center server.
-    - Chinese blog: [Survey of Communication-based Optimization for Federated Learning. Section 2](https://neth-lab.netlify.app/publication/22-01-02-survey-of-communication-based-optimization-for-federated-learning/#section2)
+    - Reduce communication costs by reducing times of communication between edge devices and center server. Similar as Gaia, it introduces relevance between local updates and global updates to determine whether transfer the local updates to center server.
+    - Chinese blog: [Summary of CMFL](https://neth-lab.netlify.app/publication/22-01-18-summary-of-cmfl/)
 
 
 <h4 id="2.4.2">2.4.2 Optimization for Machine Learning</h4>
@@ -222,6 +222,8 @@ This section will introduce some researches focus on tradition Machine Learning,
     - Chinese blog: [Summary of Hoplite. Section 3](https://neth-lab.netlify.app/publication/21-12-15-summary-of-hoplite/#section3)
 
 - [Gaia: Geo-distributed machine learning approaching lan speeds](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/hsieh). 2017. NSDI
+    - Use significant function to determine the importance of updates. If smaller than threshold, do not transfer so that mitigate the overhead of WAN bandwidth. Introduce a new parallelism method called ASP, which is proved can guarantee convergence requirement.
+    - Chinese blog: <a href="https://neth-lab.netlify.app/publication/22-01-16-summary-of-gaia/">Summary of Gaia</a>
 
 ---
 

@@ -127,6 +127,8 @@ This section will collect paper from both **Distributed framework for other comp
 
 - [Oort: Efficient Federated Learning via Guided Participant Selection](https://www.usenix.org/conference/osdi21/presentation/lai). 2021. OSDI
 
+- [TiFL: A tier-based federated learning system](https://dl.acm.org/doi/abs/10.1145/3369583.3392686). 2020. HPDC
+
 <h4 id="2.3.2">2.3.2 Optimization for Machine Learning</h4>
 
 Since currently there is a few research paper about distributed framework for FL, here we provide related work focus on Machine Learning Framework for reference.
@@ -196,6 +198,8 @@ Since currently there is a few research paper about distributed framework for FL
     - Use quantization method to compress encrypted data size, which reduces the costs of communication and computation.
     - Chinese blog: [Summary of BatchCrypt](https://neth-lab.netlify.app/publication/22-01-12-summary-of-batchcrypt/)
 
+- [Communication-Efficient Federated Deep Learning With Layerwise Asynchronous Model Update and Temporally Weighted Aggregation](https://ieeexplore.ieee.org/abstract/document/8945292). 2020. TNNLS
+
 - [CMFL: Mitigating Communication Overhead for Federated Learning](https://ieeexplore.ieee.org/abstract/document/8885054). 2019. ICDCS
     - Reduce communication costs by reducing times of communication between edge devices and center server. Similar as Gaia, it introduces relevance between local updates and global updates to determine whether transfer the local updates to center server.
     - Chinese blog: [Summary of CMFL](https://neth-lab.netlify.app/publication/22-01-18-summary-of-cmfl/)
@@ -213,13 +217,23 @@ This section will introduce some researches focus on tradition Machine Learning,
     - Introduce collective communication to task-based runtime distributed frameworks (e.g., Ray, Dask, Hydro)
     - Chinese blog: [Summary of Hoplite](https://neth-lab.netlify.app/publication/21-12-15-summary-of-hoplite/)
 
+- [FetchSGD: Communication-Efficient Federated Learning with Sketching](https://arxiv.org/abs/2007.07682). 2020. ICML
+
 - [waveSZ: a hardware-algorithm co-design of efficient lossy compression for scientific data](https://dl.acm.org/doi/abs/10.1145/3332466.3374525). 2020. PPoPP
+
+- [Communication-efficient distributed sgd with sketching](https://arxiv.org/abs/1903.04488). 2019. NIPS
 
 - [A generic communication scheduler for distributed DNN training acceleration](https://dl.acm.org/doi/10.1145/3341301.3359642). 2019. SOSP.   
     - Chinese blog: [Summary of A generic communication scheduler for distributed DNN training acceleration](https://neth-lab.netlify.app/publication/20-12-21-a-generic-communication-scheduler-for-distributed-dnn-training-acceleration/)
 
+- [Sketchml: Accelerating distributed machine learning with data sketches](https://dl.acm.org/doi/abs/10.1145/3183713.3196894). 2018. SIGMOD
+
+- [Gradient Sparsification for Communication-Efficient Distributed Optimization](https://proceedings.neurips.cc/paper/2018/file/3328bdf9a4b9504b9398284244fe97c2-Paper.pdf). 2018. NIPS
+
 - [Horovod: fast and easy distributed deep learning in TensorFlow](https://arxiv.org/abs/1802.05799). 2018. arXiv
     - Chinese blog: [Summary of Hoplite. Section 3](https://neth-lab.netlify.app/publication/21-12-15-summary-of-hoplite/#section3)
+
+- [QSGD: Communication-Efficient SGD via Gradient Quantization and Encoding](https://proceedings.neurips.cc/paper/2017/hash/6c340f25839e6acdc73414517203f5f0-Abstract.html). 2017. NIPS
 
 - [Gaia: Geo-distributed machine learning approaching lan speeds](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/hsieh). 2017. NSDI
     - Use significant function to determine the importance of updates. If smaller than threshold, do not transfer so that mitigate the overhead of WAN bandwidth. Introduce a new parallelism method called ASP, which is proved can guarantee convergence requirement.

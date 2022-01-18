@@ -119,7 +119,7 @@ This section will collect paper from both **Distributed framework for other comp
 
 - [Throughput-Optimal Topology Design for Cross-Silo Federated Learning](https://arxiv.org/abs/2010.12229). 2020. arXiv
 
-- [Survey of Framework-based Optimization for Federated Learning](https://mlsys.org/Conferences/2019/doc/2019/193.pdf). 2019. MLSys
+- [Towards Federated Learning at Scale: System Design](https://mlsys.org/Conferences/2019/doc/2019/193.pdf). 2019. MLSys
     - A framework for scaling horizontal FL. 
     - Chinese blogs: [Survey of Distributed Framework in Federated Learning. Section 3](https://neth-lab.netlify.app/publication/21-11-26-survey-of-framework-based-optimization-for-federated-learning/#section3)
 

@@ -3,7 +3,7 @@ A paper list of federated learning - About system design. Currently, it mainly f
 
 **Chinese blogs**: [Neth-Lab](https://neth-lab.netlify.app/publication/21-12-31-survey-of-system-design-for-distributed-ml-and-fl/), includes study notes, tutorials and development documents.
 
-**Last update: Janary, 18th, 2022.**
+**Last update: Janary, 19th, 2022.**
 
 ---
 
@@ -222,6 +222,8 @@ This section will introduce some researches focus on tradition Machine Learning,
 - [waveSZ: a hardware-algorithm co-design of efficient lossy compression for scientific data](https://dl.acm.org/doi/abs/10.1145/3332466.3374525). 2020. PPoPP
 
 - [Communication-efficient distributed sgd with sketching](https://arxiv.org/abs/1903.04488). 2019. NIPS
+    - Use sketch method to choose top-k gradient elements so that workers just need transfer top-k updates, which reduces communication cost.
+    - Chinese blog: [Summary of Sketching. Section 2](https://neth-lab.netlify.app/publication/22-01-18-summary-of-sketching/#section2)
 
 - [A generic communication scheduler for distributed DNN training acceleration](https://dl.acm.org/doi/10.1145/3341301.3359642). 2019. SOSP.   
     - Chinese blog: [Summary of A generic communication scheduler for distributed DNN training acceleration](https://neth-lab.netlify.app/publication/20-12-21-a-generic-communication-scheduler-for-distributed-dnn-training-acceleration/)

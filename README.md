@@ -3,7 +3,7 @@ A paper list of federated learning - About system design. Currently, it mainly f
 
 **Chinese blogs**: [Neth-Lab](https://neth-lab.netlify.app/publication/21-12-31-survey-of-system-design-for-distributed-ml-and-fl/), includes study notes, tutorials and development documents.
 
-**Last update: Janary, 19th, 2022.**
+**Last update: Janary, 27th, 2022.**
 
 ---
 
@@ -198,6 +198,10 @@ Since currently there is a few research paper about distributed framework for FL
     - Use quantization method to compress encrypted data size, which reduces the costs of communication and computation.
     - Chinese blog: [Summary of BatchCrypt](https://neth-lab.netlify.app/publication/22-01-12-summary-of-batchcrypt/)
 
+- [FetchSGD: Communication-Efficient Federated Learning with Sketching](https://arxiv.org/abs/2007.07682). 2020. ICML
+    - Use sketching method to reduce communication costs (compress gradients), which just need once communication between server and clients.
+    - Chinese blog: [Summary of Sketching. section 3](https://neth-lab.netlify.app/publication/22-01-18-summary-of-sketching/#section3)
+
 - [Communication-Efficient Federated Deep Learning With Layerwise Asynchronous Model Update and Temporally Weighted Aggregation](https://ieeexplore.ieee.org/abstract/document/8945292). 2020. TNNLS
 
 - [CMFL: Mitigating Communication Overhead for Federated Learning](https://ieeexplore.ieee.org/abstract/document/8885054). 2019. ICDCS
@@ -216,8 +220,6 @@ This section will introduce some researches focus on tradition Machine Learning,
 - [Hoplite: efficient and fault-tolerant collective communication for task-based distributed systems](https://dl.acm.org/doi/abs/10.1145/3452296.3472897). 2021. SIGCOMM
     - Introduce collective communication to task-based runtime distributed frameworks (e.g., Ray, Dask, Hydro)
     - Chinese blog: [Summary of Hoplite](https://neth-lab.netlify.app/publication/21-12-15-summary-of-hoplite/)
-
-- [FetchSGD: Communication-Efficient Federated Learning with Sketching](https://arxiv.org/abs/2007.07682). 2020. ICML
 
 - [waveSZ: a hardware-algorithm co-design of efficient lossy compression for scientific data](https://dl.acm.org/doi/abs/10.1145/3332466.3374525). 2020. PPoPP
 

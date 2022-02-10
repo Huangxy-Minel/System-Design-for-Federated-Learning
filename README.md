@@ -3,7 +3,7 @@ A paper list of federated learning - About system design. Currently, it mainly f
 
 **Chinese blogs**: [Neth-Lab](https://neth-lab.netlify.app/publication/21-12-31-survey-of-system-design-for-distributed-ml-and-fl/), includes study notes, tutorials and development documents.
 
-**Last update: Janary, 27th, 2022.**
+**Last update: Feb, 10th, 2022.**
 
 ---
 
@@ -136,6 +136,8 @@ Since currently there is a few research paper about distributed framework for FL
 <h5 id="2.3.2.1">2.3.2.1 Topology</h5>
 
 - [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://dl.acm.org/doi/10.1145/3477132.3483553). 2021. SOSP
+    - A noval pipeline method (GPU-based) of compression operations and computing operations for compression distributed DNN training.
+    - Chinese blog: [Summary of HiPress](https://neth-lab.netlify.app/publication/22-02-04-summary-of-hipress/)
 
 - [DAPPLE: a pipelined data parallel approach for training large models](https://dl.acm.org/doi/10.1145/3437801.3441593). 2021. PPoPP
 
@@ -189,6 +191,8 @@ Since currently there is a few research paper about distributed framework for FL
 <h3 id="2.4">2.4 Optimization in communication perspective</h3>
 
 <h4 id="2.4.1">2.4.1 Optimization for FL</h4>
+
+- [Efficient Batch Homomorphic Encryption for Vertically Federated XGBoost](https://arxiv.org/abs/2112.04261). 2021. arXiv
 
 - [Cheetah: Optimizing and Accelerating Homomorphic Encryption for Private Inference](https://ieeexplore.ieee.org/abstract/document/9407118). 2021. HPCA
 

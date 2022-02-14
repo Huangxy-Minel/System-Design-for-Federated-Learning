@@ -92,6 +92,8 @@ A paper list of federated learning - About system design. Currently, it mainly f
 - [Secure bilevel asynchronous vertical federated learning with backward updating](https://ojs.aaai.org/index.php/AAAI/article/view/17301). 2021. AAAI
 
 - [VF2Boost: Very Fast Vertical Federated Gradient Boosting for Cross-Enterprise Learning](https://dl.acm.org/doi/abs/10.1145/3448016.3457241). 2021. SIGMOD
+    - System optimization for SBT using overlapping between encryption, cross-Internet communication and histogram constraction. In addition, it gives several trick implementations in practice.
+    - Chinese blog: [Summary of VF2Boost](https://neth-lab.netlify.app/publication/22-02-13-summary-of-vf2boost/)
 
 - [FedML: A Research Library and Benchmark for Federated Machine Learning](https://arxiv.org/abs/2007.13518). 2020. arXiv
     - A library and system architecture for FL.

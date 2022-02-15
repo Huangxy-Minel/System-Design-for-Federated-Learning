@@ -3,7 +3,7 @@ A paper list of federated learning - About system design. Currently, it mainly f
 
 **Chinese blogs**: [Neth-Lab](https://neth-lab.netlify.app/publication/21-12-31-survey-of-system-design-for-distributed-ml-and-fl/), includes study notes, tutorials and development documents.
 
-**Last update: Feb, 10th, 2022.**
+**Last update: Feb, 15th, 2022.**
 
 ---
 
@@ -150,6 +150,7 @@ Since currently there is a few research paper about distributed framework for FL
 <h5 id="2.3.2.1">2.3.2.1 Topology</h5>
 
 - [CrystalPerf: Learning to Characterize the Performance of Dataflow Computation through Code Analysis](https://www.usenix.org/conference/atc21/presentation/tian). 2021. ATC
+
 - [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://dl.acm.org/doi/10.1145/3477132.3483553). 2021. SOSP
     - A noval pipeline method (GPU-based) of compression operations and computing operations for compression distributed DNN training.
     - Chinese blog: [Summary of HiPress](https://neth-lab.netlify.app/publication/22-02-04-summary-of-hipress/)
@@ -207,8 +208,6 @@ Since currently there is a few research paper about distributed framework for FL
 
 <h4 id="2.4.1">2.4.1 Optimization for FL</h4>
 
-- [RC-SSFL: Towards Robust and Communication-efficient Semi-supervised Federated Learning System](https://arxiv.org/abs/2012.04432). 2020. arXiv
-
 - [FLASHE: Additively Symmetric Homomorphic Encryption for Cross-Silo Federated Learning](https://arxiv.org/abs/2109.00675). 2021. arXiv
 
 - [Efficient Batch Homomorphic Encryption for Vertically Federated XGBoost](https://arxiv.org/abs/2112.04261). 2021. arXiv
@@ -216,6 +215,8 @@ Since currently there is a few research paper about distributed framework for FL
 - [Cheetah: Optimizing and Accelerating Homomorphic Encryption for Private Inference](https://ieeexplore.ieee.org/abstract/document/9407118). 2021. HPCA
 
 - [Communication-Efficient Federated Learning with Adaptive Parameter Freezing](https://ieeexplore.ieee.org/abstract/document/9546506/). 2021. ICDCS
+
+- [RC-SSFL: Towards Robust and Communication-efficient Semi-supervised Federated Learning System](https://arxiv.org/abs/2012.04432). 2020. arXiv
 
 - [BatchCrypt: Efficient Homomorphic Encryption for Cross-Silo Federated Learning](https://www.usenix.org/conference/atc20/presentation/zhang-chengliang). 2020. ATC
     - Use quantization method to compress encrypted data size, which reduces the costs of communication and computation.

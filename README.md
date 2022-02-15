@@ -89,6 +89,8 @@ A paper list of federated learning - About system design. Currently, it mainly f
 
 <h4 id="2.2.1">2.2.1 Optimization for FL</h4>
 
+- [SAFELearn: Secure Aggregation for private FEderated Learning](https://ieeexplore.ieee.org/abstract/document/9474309). 2021. S&P workshop
+
 - [Secure bilevel asynchronous vertical federated learning with backward updating](https://ojs.aaai.org/index.php/AAAI/article/view/17301). 2021. AAAI
 
 - [VF2Boost: Very Fast Vertical Federated Gradient Boosting for Cross-Enterprise Learning](https://dl.acm.org/doi/abs/10.1145/3448016.3457241). 2021. SIGMOD
@@ -119,6 +121,16 @@ This section will collect paper from both **Distributed framework for other comp
 
 - [Sphinx: Enabling Privacy-Preserving Online Learning over the Cloud](https://www.ieee-security.org/TC/SP2022/program-papers.html). 2022. S&P
 
+- [Cerebro: A Platform for Multi-Party Cryptographic Collaborative Learning](https://www.usenix.org/conference/usenixsecurity21/presentation/zheng). 2021. USENIX Security
+
+- [Citadel: Protecting Data Privacy and Model Confidentiality for Collaborative Learning](https://dl.acm.org/doi/abs/10.1145/3472883.3486998). 2021. SoCC
+
+- [SecureBoost+ : A High Performance Gradient Boosting Tree Framework for Large Scale Vertical Federated Learning](https://arxiv.org/abs/2110.10927). 2021. arXiv
+
+- [FedAT: a high-performance and communication-efficient federated learning system with asynchronous tiers](https://dl.acm.org/doi/abs/10.1145/3458817.3476211). 2021 SC
+
+- [FEDAT: A COMMUNICATION-EFFICIENT FEDERATED LEARNING METHOD WITH ASYNCHRONOUS TIERS UNDER NON-IID DATA](https://par.nsf.gov/servlets/purl/10213680). 2020. arXiv
+
 - [Throughput-Optimal Topology Design for Cross-Silo Federated Learning](https://arxiv.org/abs/2010.12229). 2020. arXiv
 
 - [Towards Federated Learning at Scale: System Design](https://mlsys.org/Conferences/2019/doc/2019/193.pdf). 2019. MLSys
@@ -137,6 +149,7 @@ Since currently there is a few research paper about distributed framework for FL
 
 <h5 id="2.3.2.1">2.3.2.1 Topology</h5>
 
+- [CrystalPerf: Learning to Characterize the Performance of Dataflow Computation through Code Analysis](https://www.usenix.org/conference/atc21/presentation/tian). 2021. ATC
 - [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://dl.acm.org/doi/10.1145/3477132.3483553). 2021. SOSP
     - A noval pipeline method (GPU-based) of compression operations and computing operations for compression distributed DNN training.
     - Chinese blog: [Summary of HiPress](https://neth-lab.netlify.app/publication/22-02-04-summary-of-hipress/)
@@ -193,6 +206,10 @@ Since currently there is a few research paper about distributed framework for FL
 <h3 id="2.4">2.4 Optimization in communication perspective</h3>
 
 <h4 id="2.4.1">2.4.1 Optimization for FL</h4>
+
+- [RC-SSFL: Towards Robust and Communication-efficient Semi-supervised Federated Learning System](https://arxiv.org/abs/2012.04432). 2020. arXiv
+
+- [FLASHE: Additively Symmetric Homomorphic Encryption for Cross-Silo Federated Learning](https://arxiv.org/abs/2109.00675). 2021. arXiv
 
 - [Efficient Batch Homomorphic Encryption for Vertically Federated XGBoost](https://arxiv.org/abs/2112.04261). 2021. arXiv
 

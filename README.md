@@ -3,7 +3,7 @@ A paper list of federated learning - About system design. Currently, it mainly f
 
 **Chinese blogs**: [Neth-Lab](https://neth-lab.netlify.app/publication/21-12-31-survey-of-system-design-for-distributed-ml-and-fl/), includes study notes, tutorials and development documents.
 
-**Last update: Feb, 15th, 2022.**
+**Last update: Apr, 12th, 2022.**
 
 ---
 
@@ -22,6 +22,7 @@ A paper list of federated learning - About system design. Currently, it mainly f
 - [2.3 Optimization in framework perspective](#2.3)
 - [2.4 Optimization in communication perspective](#2.4)
 - [2.5 Optimization for Memory](#2.5)
+- [2.6 Optimization for Homomorphic Encryption](#2.6)
 
 #### [3 Opensource Projects](#3)
 
@@ -149,8 +150,6 @@ Since currently there is a few research paper about distributed framework for FL
 
 <h5 id="2.3.2.1">2.3.2.1 Topology</h5>
 
-- [CrystalPerf: Learning to Characterize the Performance of Dataflow Computation through Code Analysis](https://www.usenix.org/conference/atc21/presentation/tian). 2021. ATC
-
 - [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://dl.acm.org/doi/10.1145/3477132.3483553). 2021. SOSP
     - A noval pipeline method (GPU-based) of compression operations and computing operations for compression distributed DNN training.
     - Chinese blog: [Summary of HiPress](https://neth-lab.netlify.app/publication/22-02-04-summary-of-hipress/)
@@ -200,9 +199,6 @@ Since currently there is a few research paper about distributed framework for FL
 - [Ownership: A Distributed Futures System for Fine-Grained Tasks](https://www.usenix.org/system/files/nsdi21-wang.pdf). 2021. NSDI
 
 ---
-
-
-
 
 <h3 id="2.4">2.4 Optimization in communication perspective</h3>
 
@@ -274,7 +270,6 @@ This section will introduce some researches focus on tradition Machine Learning,
 <h4 id="2.5.1">2.5.1 Optimization for FL</h4>
 
 
-
 <h4 id="2.5.2">2.5.2 Optimization for Machine Learning</h4>
 
 - [GAIA: A System for Interactive Analysis on Distributed Graphs Using a High-Level Language](https://www.usenix.org/system/files/nsdi21-qian.pdf). 2021. NSDI 
@@ -288,6 +283,11 @@ This section will introduce some researches focus on tradition Machine Learning,
 - [Are dynamic memory managers on GPUs slow?: a survey and benchmarks](https://dl.acm.org/doi/10.1145/3437801.3441612). 2021. PPoPP
 
 - [Sentinel: Efficient Tensor Migration and Allocation on Heterogeneous Memory Systems for Deep Learning](https://ieeexplore.ieee.org/abstract/document/9407112). 2021. HPCA
+
+<h3 id="2.6">2.6 Optimization for Homomorphic Encryption</h3>
+
+- [EVA: An Encrypted Vector Arithmetic Language and Compiler for Efficient Homomorphic Computation](https://dl.acm.org/doi/abs/10.1145/3385412.3386023). 2020. PLDI
+- [CHET: An Optimizing Compiler for Fully-Homomorphic Neural-Network Inferencing](https://dl.acm.org/doi/abs/10.1145/3314221.3314628). 2019. PLDI
 
 ---
 <h2 id="3">3 Opensource Projects</h2>

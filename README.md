@@ -286,7 +286,10 @@ This section will introduce some researches focus on tradition Machine Learning,
 
 <h3 id="2.6">2.6 Optimization for Homomorphic Encryption</h3>
 
+- [F1: A fast and programmable accelerator for fully homomorphic encryption](https://dl.acm.org/doi/abs/10.1145/3466752.3480070). 2021. MICRO
+  
 - [EVA: An Encrypted Vector Arithmetic Language and Compiler for Efficient Homomorphic Computation](https://dl.acm.org/doi/abs/10.1145/3385412.3386023). 2020. PLDI
+
 - [CHET: An Optimizing Compiler for Fully-Homomorphic Neural-Network Inferencing](https://dl.acm.org/doi/abs/10.1145/3314221.3314628). 2019. PLDI
 
 ---
@@ -299,6 +302,10 @@ This section will introduce some researches focus on tradition Machine Learning,
 - [Tensorflow Federated](https://github.com/tensorflow/federated)
 
 - [PyTorch Implementation](https://github.com/shaoxiongji/federated-learning): An implementation based on PyTorch. From [shaoxiongji](https://github.com/shaoxiongji)
+
+- [Microsoft/SEAL](https://github.com/microsoft/SEAL): easy-to-use and powerful homomorphic encryption library.
+
+- [Microsoft/EVA](https://github.com/microsoft/EVA): Compiler for the SEAL homomorphic encryption library.
 
 <h2 id="4">4 Researchers</h2>
 

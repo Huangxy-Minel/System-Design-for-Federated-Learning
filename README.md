@@ -293,7 +293,7 @@ This section will introduce some researches focus on tradition Machine Learning,
 - [CHET: An Optimizing Compiler for Fully-Homomorphic Neural-Network Inferencing](https://dl.acm.org/doi/abs/10.1145/3314221.3314628). 2019. PLDI
 
 ---
-<h2 id="3">3 Opensource Projects</h2>
+<h2 id="3">3 Open-source Projects</h2>
 
 - [FATE](https://github.com/search?q=federated+learning): Industrial framework for FL. From WeBank. Chinese blog: [Architecture of FATE](https://neth-lab.netlify.app/publication/21-3-12-architecture-of-fate/)
 
